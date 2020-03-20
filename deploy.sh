@@ -1,6 +1,2 @@
 #!/bin/bh
-BASEDIR="/var/www"
-BACKUP="/backup/conf/webap"
-UPDIR="/upload/upload"
-DATE=`date +%Y%m%d%H%M`
-
+sh /home/devops_bpr/deploy.sh
