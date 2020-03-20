@@ -1,2 +1,2 @@
 #!/bin/bh
-mkdir deploymnet/buildnumber 
+mkdir buildnumber 
