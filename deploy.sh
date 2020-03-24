@@ -4,4 +4,4 @@ cd CRM
 tar -zcvf myApp_$(date +%Y%d%m)_buildnum_buildno.tar.gz *
 mv myApp_* ../../release
 cd ~/key
-ls -l
+ssh -i id_rsa $webap "sudo mkdir -p /usr/local/myApp"
